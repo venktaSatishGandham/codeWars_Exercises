@@ -1,8 +1,8 @@
-// You get an array of numbers, return the sum of all of the positives ones.
+/* You get an array of numbers, return the sum of all of the positives ones.
 
-// Example [1,-4,7,12] => 1 + 7 + 12 = 20
+ Example [1,-4,7,12] => 1 + 7 + 12 = 20
 
-// Note: if there is nothing to sum, the sum is default to 0.
+ Note: if there is nothing to sum, the sum is default to 0. */
 
 
 
@@ -15,5 +15,5 @@ function sumOfPostiveNum(arry){
     }
     return sum
 }
-//console.log(sumOfPostiveNum([2,5,8,6,-4]))  //21
-/* alert(sumOfPostiveNum([2,5,8,6,-4])) */
+console.log(sumOfPostiveNum([2,5,8,6,-4]))  //21
+alert(sumOfPostiveNum([2,5,8,6,-4])) 
